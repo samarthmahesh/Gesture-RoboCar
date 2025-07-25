@@ -16,7 +16,12 @@
 A robot car using nothing but hand gestures? This project does just that—your webcam sees your hand (input), interprets which fingers are out using *mediapipe*, and sends a command (wirelessly!) using *USP Wifi* to an *ESP32* microcontroller that moves the car accordingly.
 
 ---
+## Folder Structure
 
+<img width="983" height="218" alt="image" src="https://github.com/user-attachments/assets/c00054e0-b6ae-4c57-b643-f10f7db7ac6f" />
+
+
+---
 ## ✨ Features
 
 - **Live Gesture Control:** A Python app on your computer uses a webcam and MediaPipe to figure out how many fingers are up, then matches that to a movement command.
