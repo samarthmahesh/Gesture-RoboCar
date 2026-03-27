@@ -11,7 +11,7 @@ mp_drawing = mp.solutions.drawing_utils
 hands = mp_hands.Hands(min_detection_confidence=0.8, min_tracking_confidence=0.8, max_num_hands=1)
 cap = cv2.VideoCapture(0)
 
-FINGER_TIPS = [8, 12, 16, 20]
+FINGER_TIPS = [8, 12, 16, 20] 
 THUMB_TIP = 4
 THUMB_IP = 2
 
